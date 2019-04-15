@@ -1,0 +1,37 @@
+.itemdis {
+    margin-left: -4%;
+}
+
+/*hr {
+ background-color: black;
+}*/
+
+.qtyDiv {
+    margin-top: 0%;
+    margin-left: -1%;
+}
+
+.priceDiv {
+    margin-left: 4%;
+}
+
+.qtyno {
+    width: 40%;
+    text-align: center;
+}
+
+.remQty {
+    margin-right: 13%;
+    font-size: 27px;
+    cursor: default;
+}
+
+.addQty {
+    margin-left: 10%;
+    font-size: 27px;
+    cursor: default;
+}
+
+.subTotalDiv {
+    margin-left: -1%;
+}
