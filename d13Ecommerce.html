@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="d13ecommerceStyles.css">
+    <link rel="stylesheet" href="d13EcomResponsiveStyles.css">
+</head>
+
+<body>
+
+    <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>ORDER</h4>
+                        </div>
+                        <!--<div class="col-md-3"></div>-->
+                        <div class="col-md-2">
+                            <h5 style="margin-left:-7%;">EDIT CART</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <hr style="margin-top: 1%;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="images/1.jpg" alt="shoes" height="65px" width="115px">
+                        </div>
+                        <div class="col-md-2 itemdis">
+                            <h5>Item <span>1</span></h5>
+                            <p>Delivery Date: <span>Date</span></p>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1 qtyDiv">
+                            <span class="remQty" onclick="decreaseValue()">-</span><input id="number1" type="text" value="1" class="qtyno"><span class="addQty" onclick="increaseValue()">+</span>
+                        </div>
+                        <div class="col-md-2 priceDiv">
+                            <h5>₹ <span id="productPrice">750</span></h5>
+                        </div>
+                        <div class=""></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7">
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="images/2.jpg" alt="SmartPhone" height="65px" width="115px">
+                        </div>
+                        <div class="col-md-2 itemdis">
+                            <h5>Item <span>1</span></h5>
+                            <p>Delivery Date: <span>Date</span></p>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1 qtyDiv">
+                            <span class="remQty">-</span><input id="number2" type="text" value="1" class="qtyno"><span class="addQty">+</span>
+                        </div>
+                        <div class="col-md-2 priceDiv">
+                            <h5>₹ <span>22000</span></h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7">
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="images/3.jpg" alt="AlienWare" height="65px" width="115px">
+                        </div>
+                        <div class="col-md-2 itemdis">
+                            <h5>Item <span>1</span></h5>
+                            <p>Delivery Date: <span>Date</span></p>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1 qtyDiv">
+                            <span class="remQty">-</span><input id="number3" type="text" value="1" class="qtyno"><span class="addQty">+</span>
+                        </div>
+                        <div class="col-md-2 priceDiv">
+                            <h5>₹ <span>10000</span></h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7">
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="images/2.jpg" alt="SmartPhone" height="65px" width="115px">
+                        </div>
+                        <div class="col-md-2 itemdis">
+                            <h5>Item <span>1</span></h5>
+                            <p>Delivery Date: <span>Date</span></p>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1 qtyDiv">
+                            <span class="remQty">-</span><input id="number4" type="text" value="1" class="qtyno"><span class="addQty">+</span>
+                        </div>
+                        <div class="col-md-2 priceDiv">
+                            <h5>₹ <span>22000</span></h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7">
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="images/3.jpg" alt="AlienWare" height="65px" width="115px">
+                        </div>
+                        <div class="col-md-2 itemdis">
+                            <h5>Item <span>1</span></h5>
+                            <p>Delivery Date: <span>Date</span></p>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1 qtyDiv">
+                            <span class="remQty">-</span><input id="number5" type="text" value="1" class="qtyno"><span class="addQty">+</span>
+                        </div>
+
+                        <div class="col-md-2 priceDiv">
+                            <h5>₹ <span>10000</span></h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7">
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <h4>Subtotal</h4>
+                        </div>
+                        <div class="col-md-4"></div>
+                        <div class="col-md-2 subTotalDiv">
+                            <h5>₹ <span id="totalamount">64750</span></h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-2">
+                            <input type="button" class="btn btn-success" value="Proceed to Checkout">
+                        </div>
+                    </div>
+                </div>
+    <script>
+        function increaseValue() {
+            var value = parseInt(document.getElementById('number1').value, 10);
+            value = isNaN(value) ? 0 : value;
+            value++;
+            document.getElementById('number1').value = value;
+            if ($("#number1").val() > 10) {
+                //   alert("more 10");
+                $("#number1").css("border", "1px solid red");
+                return false;
+            }
+        }
+
+        function decreaseValue() {
+            var value = parseInt(document.getElementById('number1').value, 10);
+            value = isNaN(value) ? 0 : value;
+            value < 1 ? value = 1 : '';
+            value--;
+            document.getElementById('number1').value = value;
+        }
+    </script>
+</body>
+
+</html>
